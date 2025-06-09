@@ -21,4 +21,6 @@ android {
 dependencies {
     compile 'com.android.support:support-v4:22.2.1'
     compile files('libs/android-support-v7-recyclerview.jar')
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.robolectric:robolectric:4.9.2'
 }
